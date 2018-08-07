@@ -1,0 +1,219 @@
+{
+  // macros
+  "macros": {
+    "toggleSideBar": [
+      "workbench.action.toggleSidebarVisibility"
+    ]
+  },
+  // editor settings
+  "editor.fontFamily": "Fira Code",
+  "editor.fontLigatures": true,
+  "editor.formatOnSave": true,
+  "javascript.format.enable": false,
+  "prettier.eslintIntegration": true,
+  "editor.cursorBlinking": "solid",
+  "editor.cursorStyle": "block-outline",
+  "editor.minimap.enabled": false,
+  "editor.lineNumbers": "relative",
+  "editor.insertSpaces": true,
+  "editor.tabSize": 2,
+  "editor.detectIndentation": true,
+  "files.exclude": {
+    "*/._": true,
+    "*/~": true
+  },
+  "workbench.sideBar.location": "right",
+  // terminal settings
+  // js settings
+  //"javascript.implicitProjectConfig.checkJs": true,
+  "npm.enableScriptExplorer": true,
+  "typescript.validate.enable": false,
+  // vim settings
+  "vim.easymotion": true,
+  "vim.easymotionMarkerFontFamily": "Fira Code",
+  "vim.sneak": true,
+  "vim.incsearch": true,
+  "vim.useSystemClipboard": true,
+  "vim.useCtrlKeys": true,
+  "vim.hlsearch": true,
+  "vim.insertModeKeyBindings": [
+    {
+      "before": [
+        "j",
+        "j"
+      ],
+      "after": [
+        "<Esc>"
+      ]
+    }
+  ],
+  "vim.normalModeKeyBindingsNonRecursive": [
+    {
+      "before": [
+        "<leader>",
+        "d"
+      ],
+      "after": [
+        "d",
+        "d"
+      ]
+    },
+    {
+      "before": [
+        ";"
+      ],
+      "commands": [
+        {
+          "command": "workbench.action.showCommands"
+        }
+      ]
+    },
+    {
+      "before": [
+        "leader",
+        "w"
+      ],
+      "commands": [
+        {
+          "command": "workbench.action.files.save"
+        }
+      ]
+    },
+    {
+      "before": [
+        "leader",
+        "q"
+      ],
+      "commands": [
+        {
+          "command": "workbench.action.files.closeWindow"
+        }
+      ]
+    },
+    {
+      "before": [
+        "leader",
+        "v",
+        "s"
+      ],
+      "commands": [
+        {
+          "command": "workbench.action.splitEditor"
+        }
+      ]
+    },
+    {
+      "before": [
+        "leader",
+        "s",
+        "p"
+      ],
+      "commands": [
+        {
+          "command": "workbench.action.splitEditorOrthogonal"
+        }
+      ]
+    },
+    {
+      "before": [
+        "Z",
+        "Z"
+      ],
+      "commands": [
+        {
+          "command": ":wq"
+        }
+      ]
+    },
+    {
+      "before": [
+        "[",
+        "<space>"
+      ],
+      "commands": [
+        {
+          "command": "editor.action.insertLineBefore"
+        }
+      ]
+    },
+    {
+      "before": [
+        "]",
+        "<space>"
+      ],
+      "commands": [
+        {
+          "command": "editor.action.insertLineAfter"
+        }
+      ]
+    }
+  ],
+  "vim.visualModeKeyBindingsNonRecursive": [
+    {
+      "before": [
+        ">"
+      ],
+      "commands": [
+        {
+          "command": "editor.action.indentLines"
+        }
+      ]
+    },
+    {
+      "before": [
+        "<"
+      ],
+      "commands": [
+        {
+          "command": "editor.action.outdentLines"
+        }
+      ]
+    }
+  ],
+  "vim.leader": ",",
+  "vim.handleKeys": {
+    "<C-a>": false,
+    "<C-f>": false
+  },
+  "vim.statusBarColorControl": true,
+  "vim.statusBarColors": {
+    "normal": "#434C5E",
+    "insert": "#BF616A",
+    "visual": "#B48EAD",
+    "visualline": "#B48EAD",
+    "visualblock": "#A3BE8C",
+    "replace": "#D08770"
+  },
+  // misc
+  "workbench.colorTheme": "Cobalt2",
+  "workbench.colorCustomizations": {
+    "statusBar.background": "#434C5E",
+    "statusBar.noFolderBackground": "#434C5E",
+    "statusBar.debuggingBackground": "#434C5E"
+  },
+  "workbench.editor.showTabs": true,
+  "workbench.activityBar.visible": false,
+  "git.autofetch": true,
+  "workbench.iconTheme": "vscode-icons",
+  "workbench.editor.enablePreview": false,
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact"
+  },
+  "html.format.wrapAttributes": "force-aligned",
+  "window.zoomLevel": 0,
+  "gitlens.advanced.messages": {
+    "suppressShowKeyBindingsNotice": true
+  },
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact"
+  ],
+  "gitlens.blame.toggleMode": "window",
+  "terminal.integrated.shell.osx": "/usr/local/bin/fish",
+  "terminal.integrated.macOptionIsMeta": true,
+  "workbench.startupEditor": "newUntitledFile",
+  "terminal.external.osxExec": "iTerm.app",
+  "explorer.confirmDelete": false,
+  "vim.easymotionKeys": "hklyuiopnm,qwertzxcvbasdgjf",
+  "terminal.integrated.fontFamily": "Fira Code"
+}
